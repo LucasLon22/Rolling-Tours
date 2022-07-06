@@ -1,0 +1,26 @@
+.formulario {
+    background-color: rgb(34, 34, 85);
+    color: white;
+    width: auto !important;
+    background-image: url(./Imagenes/ribblehead-viaduct-g903dbec05_1920.jpg);
+    background-position: center center;
+    background-size: cover;
+    
+}
+
+.card {
+    background-color: rgb(34, 34, 85);
+    color: white;
+    border: groove;
+}
+
+.botonLista {
+    color: rgb(34, 34, 85);
+
+}
+
+@media (max-width: 576px) {
+    .espacio_publicitario {
+        display: none;
+    }
+}

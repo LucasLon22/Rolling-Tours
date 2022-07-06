@@ -1,0 +1,14 @@
+.fondoFooter {
+    background-color: #0b0b31;
+}
+
+.figure-img {
+    display: flex;
+}
+
+@media (max-width:600px) {
+    .figure-img {
+        width: 250px;
+        height: 250px;
+    }
+}

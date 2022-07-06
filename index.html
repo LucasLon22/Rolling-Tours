@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/9117be7fd4.js" crossorigin="anonymous"></script>
+    <title>Rolling-Tours</title>
+    <link rel="icon" href="./Imagenes/Rolling-tours-pestaña.png">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="estiloCuerpo.css">
+</head>
+
+<body>
+    <nav class="navbar ">
+        <div class="container-fluid bg-prenavbar titulo_principal">
+            <a class="navbar-brand m-0 p-0" href="#">
+                <img src="./Imagenes/logo-rollingtours.png" alt="logo-empresa" width="100" height="75"
+                    class="d-inline-block align-text-top p-1 opacity-75 logo_rolling_tours">
+            </a>
+            <div class="text-light nav_contactos navbar_redes">
+                <span class="me-4 fs-4">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    3764-444444
+                </span>
+                <span class="me-4 fs-4">
+                    <i class="fa-brands fa-instagram"></i>
+                    rollingtours
+                </span>
+                <span class="me-4 fs-4">
+                    <i class="fa-brands fa-facebook"></i>
+                    rollingtoursviajes
+                </span>
+            </div>
+        </div>
+
+    </nav>
+    <!--Aqui comienza el nav -->
+    <nav class="navbar navbar-expand-lg bg-fondo-navsecundario sticky-top ">
+        <div class="container-fluid">
+
+            <a class="navbar-brand nav__a__menu" href="#">Menú</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!--Aqui comienza el nav secundario-->
+            <div class="collapse navbar-collapse margin-auto" id="navbarSupportedContent">
+           
+                <ul class="navbar-nav me-auto mb-3 mb-lg-0 mt-2">
+                        <li class="nav-item navbar_secundario_opciones w-auto">
+                            <a class="nav-link active color_letra me-1" aria-current="page" href="#">Acerca de
+                                Nosotros</a>
+                        </li>
+                        <li class="nav-item navbar_secundario_opciones">
+                            <a class="nav-link active color_letra me-1" aria-current="page" href="#">Contacto</a>
+                        </li>
+                        <!--Aqui comienza el MODAL-->
+                        <li class="ms-0 ms-lg-3 me-4">
+                            <button type="button" class="btn nav-boton-suscripcion  " data-bs-toggle="modal"
+                                data-bs-target="#exampleModal" data-bs-whatever="@mdo">Suscribirse</button>
+                        </li>
+                    
+                    </ul>
+
+                    <ul class="mb-3 mb-lg-0 mt-2 me-0 p-0 ">
+                            <a href="./login.html" target="_blank" class="text-decoration-none">
+                            <button type="button" class="btn back-boton-login mb-2 "
+                                style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                                Login <i class="fa-solid fa-arrow-right-to-bracket fs-4 ms-2 me-3"></i>
+                            </button>
+                            </a>
+                        
+                    </ul>
+
+                
+                    
+                        
+                
+                        
+
+            </div>
+        </div>
+
+    </nav>
+
+    <!--Aqui comienza la parte de Delfina-->
+    <div class="container-xxl border rounded-bottom formulario">
+        <form class="needs-validation row" novalidate>
+            <div class="col-lg-6 my-2 mt-2 mb-4">
+                <label for="validationCustom03" class="form-label">Origen</label>
+                <input type="text" class="form-control" id="validationCustom03" required>
+                <div class="invalid-feedback">
+                    Please provide a valid city.
+                </div>
+            </div>
+            <div class="col-lg-6 my-2 mt-2 mb-4">
+                <label for="validationCustom03" class="form-label">Destino</label>
+                <input type="text" class="form-control" id="validationCustom03" required>
+                <div class="invalid-feedback">
+                    Please provide a valid city.
+                </div>
+            </div>
+            <div class="col-lg-3 my-2 mt-2 mb-4">
+                <label for="validationCustom05" class="form-label">Fecha IDA</label>
+                <input type="date" class="form-control" id="validationCustom05" required>
+                <div class="invalid-feedback">
+                    Please provide a valid date.
+                </div>
+            </div>
+            <div class="col-lg-3 my-2 mt-2 mb-4">
+                <label for="validationCustom05" class="form-label">Fecha VUELTA</label>
+                <input type="date" class="form-control" id="validationCustom05" required>
+                <div class="invalid-feedback">
+                    Please provide a valid date.
+                </div>
+            </div>
+            <div class="col-lg-3 my-2 mt-2 mb-4">
+                <label for="validationCustomUsername" class="form-label">Pasajeros</label>
+                <div class="input-group has-validation">
+                    <input type="number" class="form-control" id="validationCustomUsername"
+                        aria-describedby="inputGroupPrepend" required>
+                    <div class="invalid-feedback">
+                        Please choose a number.
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 my-2 mt-2 mb-4">
+                <label for="validationCustom02" class="form-label">CÓDIGO PROMOCIONAL</label>
+                <input type="text" class="form-control" id="validationCustom02" required>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+            </div>
+            <div class="col-lg-12 my-2 d-flex justify-content-center mt-2 mb-4">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                    <label class="form-check-label" for="invalidCheck">
+                        Aún no he decidido fecha
+                    </label>
+                    <div class="invalid-feedback">
+                        Aún no he decidido fecha
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 my-2 d-flex justify-content-center mt-2 mb-4">
+                <button class="btn btn-danger" type="submit">Buscar</button>
+            </div>
+        </form>
+    </div>
+    
+    <!-- hasta aca el formulario de busqueda -->
+    
+    <main class="container">
+        <section class="row justify-content-evenly">
+    
+            <!-- Three columns of text below the carousel -->
+            <div class="card col-sm-12 col-xl-4 mt-5 " style="width: 20rem;">
+                <img src="./Imagenes/cancun.jpg" class="card-img-top mt-3" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">CARIBE</h5>
+                    <p class="card-text">Las más impresionantes playas te esperan en el Caribe. Te ofrecemos los mejores
+                        paquetes al Caribe para que disfrutes de estos maravillosos destinos sin gastar de más.</p>
+                    <a href="#" class="btn btn-danger">VER MÁS</a>
+                </div>
+            </div>
+    
+            <div class="card col-sm-12 col-xl-4 mt-5 me-5 ms-5" style="width: 20rem;">
+                <img src="./Imagenes/arg.jpg" class="card-img-top mt-3" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">ARGENTINA</h5>
+                    <p class="card-text">Encontrá las innumerables ofertas de paquetes turísticos en Argentina, te
+                        permite descubrir la Argentina con numerosos destinos como Buenos Aires, Patagonia, NOA, y los
+                        principales atractivos turísticos de la Argentina.</p>
+                    <a href="#" class="btn btn-danger">VER MÁS</a>
+                </div>
+            </div>
+    
+            <div class="card col-sm-12 col-xl-4 mt-5" style="width: 20rem;">
+                <img src="./Imagenes/europ.jpg" class="card-img-top mt-3" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">EUROPA</h5>
+                    <p class="card-text">Te ofrece las mejores ofertas para que recorras Europa sin gastar de más con
+                        paquetes turísticos a Europa Si tu plan es el Viejo Continente, no te podés perder los paquetes
+                        a Londres, París y Roma</p>
+                    <a href="#" class="btn btn-danger">VER MÁS</a>
+                </div>
+            </div>
+    
+            <div class="card col-sm-12 col-xl-4 mt-5" style="width: 20rem;">
+                <img src="./Imagenes/alquiler.jpg" class="card-img-top mt-3" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">ALQUILER DE AUTOS</h5>
+                    <p class="card-text">La mejor forma de conocer una ciudad es en auto, manejando los tiempos a tu
+                        manera. Contamos con las mejores ofertas en alquiler de autos con las mejores empresas de
+                        alquiler.</p>
+                    <a href="#" class="btn btn-danger">VER MÁS</a>
+                </div>
+            </div>
+    
+            <div class="card col-sm-12 col-xl-4 mt-5 me-5 ms-5" style="width: 20rem;">
+                <img src="./Imagenes/seguro-viaje-min.jpg" class="card-img-top mt-3" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">ASISTENCIA AL VIAJERO</h5>
+                    <p class="card-text">Si te gusta viajar, nada mejor que hacerlo con la mayor tranquilidad. Tenemos
+                        los mejores planes de asistencia al viajero para cualquier destino que visites</p>
+                    <a href="#" class="btn btn-danger">VER MÁS</a>
+                </div>
+            </div>
+    
+            <div class="card col-sm-12 col-xl-4 mt-5" style="width: 20rem;">
+                <img src="./Imagenes/event-tickets.jpg" class="card-img-top mt-3" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">ACTIVIDADES TURISTICAS</h5>
+                    <p class="card-text">Te traemos las mejores actividades, paseos, excursiones y tours con promociones
+                        para que disfrutes las principales atracciones turísticas de tu próximo destino al máximo.</p>
+                    <a href="#" class="btn btn-danger">VER MÁS</a>
+                </div>
+            </div>
+        </section>
+    
+        <br>
+    
+        <section class="row">
+    
+            <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action botonLista">ALOJAMIENTO</a>
+                <a href="#" class="list-group-item list-group-item-action botonLista">ALQUILER DE AUTOS</a>
+                <a href="#" class="list-group-item list-group-item-action botonLista">SEGURO DE VIAJES</a>
+                <a href="#" class="list-group-item list-group-item-action botonLista">ATRACCIONES</a>
+            </div>
+    
+    
+            <div class="input-group col-sm-12 mt-4 mb-4">
+                <input type="text" class="form-control" placeholder="Buscar" aria-label="Buscar"
+                    aria-describedby="button-addon2">
+                <button type="button" class="btn btn-danger">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                    </svg>
+                    <span class="visually-hidden">Button</span>
+                </button>
+            </div>
+    
+        </section>
+    
+        <section class="container">
+    
+            <!-- Inicio - Espacio publicitario -->
+            <div class="row text-center mt-3 p-2 espacio_publicitario">
+                <div class="col">
+                    <a href="https://www.assistcard.com/ar" target="_blank"><img src="./Imagenes/AssistCard3-1024x682.jpg"
+                            alt="publicidad assist card" class="img-fluid mt-1 col-xl-4" style="width: 18rem;"></a>
+                </div>
+                <div class="col">
+                    <a href="https://www.hertz.com.ar/" target="_blank"><img src="./Imagenes/Hertz-50-170420.jpg"
+                            alt="publicidad hertz" class="img-fluid mt-1 col-xl-4" style="width: 18rem;"></a>
+                </div>
+            </div>
+        </section>
+    
+    </main>
+    
+
+
+
+
+    <!--Aqui comienza el codigo para el modal no mover de esta posición-->
+    <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header back_modal_titulo">
+                    <h5 class="modal-title text-light" id="exampleModalLabel">Suscribite y recibí por correo las mejores ofertas
+                        para el viaje de tu vida!!</h5>
+                    <button type="button" class="btn-close bg-light" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body imagen-fondo">
+                    <form>
+
+                        <div class="mb-3 formato-texto-modal">
+                            
+                            <input type="text" class="form-control back_modal" id="suscripcion_input_nombre" placeholder="Nombre"
+                                required>
+                        </div>
+
+                        <div class="mb-3 formato-texto-modal ">
+                            
+                            <input type="number" class="form-control back_modal" id="suscripcion_input_celular"
+                                placeholder="Celular" required>
+                        </div>
+
+                        <div class="mb-3 formato-texto-modal">
+                            
+                            <input type="email" class="form-control back_modal" id="suscripcion_input_email"
+                                placeholder="Correo Electrónico" required>
+                        </div>
+
+                    </form>
+                </div>
+                <div class="modal-footer back_modal_botones">
+                    <button type="button" class="btn back-boton-login " data-bs-dismiss="modal">Cancelar</button>
+
+                    <button type="submit" class="btn nav-boton-suscripcion">Recibir Notificaciones</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="fondoFooter row p-4 pb-2 text-white">
+    
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <img src="./imagenes/rollingToursSinfondo.png" class="figure-img img-fluid rounded" width="153" height="153"
+                    alt="...">
+                <p><i class="fa-solid fa-location-dot"></i> Tucumán, Argentina.</p>
+                <p><i class="fa-solid fa-phone"></i> Atención al cliente: 0810.220.2341</p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <p class="h5 mb-3">Promociones y eventos</p>
+                <div class="mb-2">
+                    <a class="text-white text-decoration-none" href="#">Mundial Qatar 2022</a>
+                </div>
+                <div class="mb-2">
+                    <a class="text-white text-decoration-none" href="#">Hot Sale</a>
+                </div>
+                <div class="mb-2">
+                    <a class="text-white text-decoration-none" href="#">Cyber Monday</a>
+                </div>
+                <div class="mb-2">
+                    <a class="text-white text-decoration-none" href="#">Black Friday</a>
+                </div>
+                <div class="mb-2">
+                    <a class="text-white text-decoration-none" href="#">Previaje</a>
+                </div>
+                <div class="mb-2">
+                    <a class="text-white text-decoration-none" href="#">Vacaciones de invierno</a>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <p class="h5 mb-3">Aerolíneas</p>
+                <div class="mb-2">
+                    <a class="text-white text-decoration-none" href="#">American Airlines</a>
+                </div>
+                <div class="mb-2">
+                    <a class="text-white text-decoration-none" href="#">United Airlines</a>
+                </div>
+                <div class="mb-2">
+                    <a class="text-white text-decoration-none" href="#">LATAM</a>
+                </div>
+                <div class="mb-2">
+                    <a class="text-white text-decoration-none" href="#">Delta Airlines</a>
+                </div>
+                <div class="mb-2">
+                    <a class="text-white text-decoration-none" href="#">Copa Airlines</a>
+                </div>
+                <div class="mb-2">
+                    <a class="text-white text-decoration-none" href="#">Avianca</a>
+                </div>
+            </div>
+    
+            <!--Iconos de las redes sociales-->
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <p class="h5 mb-3">Síguenos en</p>
+                <div class="mb-2">
+                    <a class="text-white text-decoration-none" href="#">
+                        <i class="fa-brands fa-facebook fa-2x "></i></a>
+                </div>
+                <div class="mb-2">
+                    <a class="text-white text-decoration-none" href="#">
+                        <i class="fa-brands fa-instagram fa-2x "></i></a>
+                </div>
+                <div class="mb-2">
+                    <a class="text-white text-decoration-none" href="#">
+                        <i class="fa-brands fa-twitter-square fa-2x "></i></a>
+                </div>
+                <div class="mb-2">
+                    <a class="text-white text-decoration-none" href="#">
+                        <i class="fa-brands fa-youtube fa-2x "></i></a>
+                </div>
+                <div class="mb-2">
+                    <a class="text-white text-decoration-none" href="#">
+                        <i class="fa-brands fa-pinterest fa-2x "></i></a>
+                </div>
+            </div>
+    
+            <div class="col-sm-12 pt-3">
+                <p class="small text-center">Copyright &COPY; 2022 Rolling-Tours / G4 . Todos los derechos reservados.
+                </p>
+            </div>
+    
+        </div>
+    
+    
+    </div>
+    <div class="container-fluid">
+        <div class="row bg-danger text-white mt-1">
+            <div class=" col-md-3 col-lg-3 text-center mt-3">
+                <p class="text-white text-right"><i class="fa-solid fa-globe fa-2x fa-xl"></i> <b> 10 años </b> de
+                    experiencia </p>
+            </div>
+            <div class=" col-md-3 col-lg-3 text-center mt-3">
+                <p class=" text-white"> <i class="fa-regular fa-face-smile fa-2x fa-xl"></i> + de <b>50 millones </b> de
+                    clientes</p>
+            </div>
+            <div class=" col-md-3 col-lg-3 text-center mt-3">
+                <p> <i class="fa-solid fa-building fa-2x fa-xl"></i> <b>30 millones </b> de hoteles</p>
+            </div>
+            <div class=" col-md-3 col-lg-3 text-center mt-3">
+                <p> <i class="fa-solid fa-plane fa-2x fa-xl"></i> <b> 850 </b> Aerolíneas</p>
+            </div>
+    
+        </div>
+    
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
