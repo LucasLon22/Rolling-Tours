@@ -1,0 +1,175 @@
+.bg-prenavbar {
+    background-image: url(./imgEuropa/imagen_fondo_nav.png);
+}
+
+.logo_rolling_tours {
+    margin-left: 30px;
+}
+
+.bg-fondo-navsecundario {
+    background-color: #E1E5F2;
+}
+
+
+.navbar {
+    padding: 0;
+}
+
+.navbar_redes {
+    border-left: 3px solid #fff;
+    padding: 10px;
+
+}
+
+.navbar_secundario_opciones {
+    font-size: 20px;
+    margin-bottom: 5px;
+
+}
+
+.navbar_secundario_opciones:hover {
+    background-color: #051d40 !important;
+    transition: 0.7s !important;
+}
+
+.color_letra:hover {
+    color: #fff !important;
+}
+
+.back-boton-login {
+    background-color: #CC0000 !important;
+    color: #fff !important;
+    font-size: 20px !important;
+    display: flex !important;
+    align-items: center !important;
+}
+
+.back-boton-login:hover {
+    background-color: #fff !important;
+    transition: 0.7s;
+    color: #CC0000 !important;
+}
+
+.nav-boton-suscripcion {
+    background-color: #051d40 !important;
+    color: #fff !important;
+    font-size: 19px !important;
+}
+
+.nav-boton-suscripcion:hover {
+    background-color: #fff !important;
+    color: #051d40 !important;
+    font-size: 19px;
+    transition: 0.7s;
+}
+
+.sticky-top {
+    background: #E1E5F2, 0.9;
+    opacity: 1;
+}
+
+
+.back_modal {
+    background-color: #F4EDE8 !important;
+
+}
+
+.back_modal_botones {
+    background-color: #FADBB9 !important;
+}
+
+.back_modal_titulo {
+    background-image: url(./imgEuropa/imagen_fondo_nav_576px.png);
+}
+
+.imagen-fondo {
+    background-image: url(./imgEuropa/playa-fondo-modal.jpg);
+    opacity: 0.9;
+
+}
+
+.textoblanco {
+    color: rgb(252, 176, 63);
+    font-size: 50px;
+    text-align: center;
+    padding: 2%;
+    text-shadow: 1px 2px rgb(143, 110, 60), 4px 4px rgb(94, 47, 25);
+}
+.textoblanco2{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    text-align: center;
+    padding: 1%;
+}
+.fondoFooter {
+    background-color: #0b0b31;
+}
+
+.figure-img {
+    display: flex;
+} 
+
+@media (max-width:600px) {
+    .figure-img{
+        width: 250px;
+        height: 250px;
+    }
+}
+.galery{
+    background-color: rgb(221, 221, 221);
+    padding: 5%;
+}
+.galerytext{
+    text-align: center;
+    font-size: 130%;
+    color:rgb(94, 47, 25);
+}
+.carouselll{
+    background-color: rgb(240, 240, 240);
+    padding: 2%;
+
+}
+
+
+@media (min-width:992px) {
+    .nav__a__menu {
+        display: none;
+    }
+
+    .titulo_principal {
+        display: none;
+    }
+
+}
+
+@media (max-width:992px) {
+    .navbar_secundario_opciones {
+        width: 30% !important;
+    }
+}
+
+
+
+@media (max-width:768px) {
+    .nav_contactos {
+        display: none;
+    }
+
+    .navbar_secundario_opciones {
+        width: 50% !important;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .titulo_principal {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+
+    }
+
+    .bg-prenavbar {
+        background-image: url(./imgEuropa/imagen_fondo_nav_576px.png);
+    }
+}

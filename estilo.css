@@ -46,16 +46,23 @@
 }
 
 .back-boton-login:hover {
-    background-color: #fff;
+    background-color: #fff ;
     transition: 0.7s;
+    color: #CC0000 ;
 }
 
 .nav-boton-suscripcion {
     background-color: #051d40;
     color: #fff;
     font-size: 19px;
-
 }
+.nav-boton-suscripcion:hover {
+    background-color: #fff;
+    color: #051d40;
+    font-size: 19px;
+    transition: 0.7s;
+}
+
 
 .sticky-top {
     background: #E1E5F2, 0.9;

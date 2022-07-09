@@ -1,0 +1,29 @@
+body{
+    background: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+img{
+    width: 30%;
+}
+.containererror{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    padding: 20px;
+}
+button{
+    padding: 13px 30px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(201, 22, 22);
+    color: white;
+}
