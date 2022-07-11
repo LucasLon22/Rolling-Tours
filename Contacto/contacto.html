@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="contacto.css">
+    <link rel="icon" href="../Imagenes/Rolling-tours-pestaña.png">
+    <script src="https://kit.fontawesome.com/9117be7fd4.js" crossorigin="anonymous"></script>
+  <title>Contacto</title>
+</head>
+
+<body class="fondo_nav_contactanos"> 
+
+  <nav class="navbar navbar-light bg-black">
+    <div class="container text-center">
+      <div class="navbar-text mx-auto">
+        <h1 class="text-light">Contactanos</h1>
+      </div>
+    </div>
+  </nav>
+
+  <section class="d-flex align-items-center m-2 mt-0 img-fondo p-5">
+      <div class="card shadow col-xs-12 col-sm-6 col-md-6 col-lg-4   p-4"> 
+          <div class="mb-4 d-flex justify-content-center align-items-center">
+              <h4>Formulario de contacto</h4>
+          </div>
+          <div class="mb-1">
+              <form id = "contacto">
+                  <div class="mb-4 d-flex justify-content-between"> 
+                      <div>
+                          <label for="nombre"> <i class="bi bi-person-bounding-box"></i>Nombre</label>
+                          <input type="text" class="form-control" name="nombre" placeholder= "ej: Hernan" required>
+                          <div class="nombre text-danger "></div>
+                      </div>
+                      <div >
+                          <label for="apellido"> <i class="bi bi-person-bounding-box"></i> Apellido</label>
+                          <input type="text" class="form-control" name="apellido" placeholder= "ej: Zelaya" required>
+                          <div class="apellido text-danger"></div>
+                      </div>
+                  </div>
+                  <div class="mb-4">
+                      <label for="correo">Correo</label>
+                      <input type="email" class="form-control" name="correo" placeholder= "ej: ejemplo@gmail.com" required>
+                      <div class="correo text-danger"></div>
+                      
+                  </div> 
+         
+                  <div class="mb-4">
+                      <label for="mensaje">Mensaje</label>
+                      <textarea name="mensaje" class="form-control" placeholder="ej: Hola! buenas tardes."></textarea>
+                      <div class="mensaje text-danger"></div>
+                  </div> 
+                  
+                  <div class="mb-2">
+                      <button id ="botton" class="col-12 btn fondo_nav_contactanos text-light d-flex justify-content-center ">
+                          <span>Enviar </span>
+                      </button>
+                  </div>       
+              </form>
+          </div>
+      </div>
+  </section>
+
+<footer class="text-center text-lg-start bg-light text-muted">
+
+<hr>
+  <section class="mapa">
+
+    <div class="container-fluid text-center text-md-start mt-5">
+
+      <div class="row d-flex justify-content-between mt-3">
+
+        <div class="col-md-12 col-lg-8 col-xl-4 mx-auto mb-4">
+
+          <h6 class="text-uppercase fw-bold mb-4">
+          Nuestra ubicación
+          </h6>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8468.032234459599!2d-65.21129827648!3d-26.82821422989185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c10b9c83219%3A0x2d0f7b2d786f0127!2s25%20de%20Mayo%20241%2C%20T4000%20San%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!5e0!3m2!1ses-419!2sar!4v1657373563618!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          
+
+
+
+        </div>
+
+
+  
+     
+        <div class="col-md-12 col-lg-4 col-xl-3 mx-auto mb-md-0 mb-4">
+
+          <h6 class="text-uppercase fw-bold mb-4">
+            Contacto
+          </h6>
+          <p><i class="bi bi-geo-alt"></i>Encontranos en 25 De Mayo 241, San Miguel de Tucumán, Argentina.</p>
+          <p>
+            <i class="bi bi-envelope"></i>
+            Rollingtour@gmail.com
+          </p>
+          <p><i class="bi bi-telephone-forward"></i> Atencion al cliente 0810-220-2341</p>
+          <p><i class="bi bi-whatsapp"></i> WhatsApp 3764-444444</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <div class="container-fluid">
+    <div class="fondoFooter row p-4 pb-2 text-white">
+  
+      <div class="col-sm-12 col-md-6 col-lg-3">
+        <img src="../Imagenes/rollingToursSinfondo.png" class="figure-img img-fluid rounded" width="153" height="153"
+          alt="...">
+        <p><i class="fa-solid fa-location-dot"></i> Tucumán, Argentina.</p>
+        <p><i class="fa-solid fa-phone"></i> Atención al cliente: 0810.220.2341</p>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-3">
+        <p class="h5 mb-3">Promociones y eventos</p>
+        <div class="mb-2">
+          <a class="text-white text-decoration-none" href="#">Mundial Qatar 2022</a>
+        </div>
+        <div class="mb-2">
+          <a class="text-white text-decoration-none" href="#">Hot Sale</a>
+        </div>
+        <div class="mb-2">
+          <a class="text-white text-decoration-none" href="#">Cyber Monday</a>
+        </div>
+        <div class="mb-2">
+          <a class="text-white text-decoration-none" href="#">Black Friday</a>
+        </div>
+        <div class="mb-2">
+          <a class="text-white text-decoration-none" href="#">Previaje</a>
+        </div>
+        <div class="mb-2">
+          <a class="text-white text-decoration-none" href="#">Vacaciones de invierno</a>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-3">
+        <p class="h5 mb-3">Aerolíneas</p>
+        <div class="mb-2">
+          <a class="text-white text-decoration-none" href="#">American Airlines</a>
+        </div>
+        <div class="mb-2">
+          <a class="text-white text-decoration-none" href="#">United Airlines</a>
+        </div>
+        <div class="mb-2">
+          <a class="text-white text-decoration-none" href="#">LATAM</a>
+        </div>
+        <div class="mb-2">
+          <a class="text-white text-decoration-none" href="#">Delta Airlines</a>
+        </div>
+        <div class="mb-2">
+          <a class="text-white text-decoration-none" href="#">Copa Airlines</a>
+        </div>
+        <div class="mb-2">
+          <a class="text-white text-decoration-none" href="#">Avianca</a>
+        </div>
+      </div>
+  
+      <!--Iconos de las redes sociales-->
+      <div class="col-sm-12 col-md-6 col-lg-3">
+        <p class="h5 mb-3">Síguenos en</p>
+        <div class="mb-2">
+          <a class="text-white text-decoration-none" href="#">
+            <i class="fa-brands fa-facebook fa-2x "></i></a>
+        </div>
+        <div class="mb-2">
+          <a class="text-white text-decoration-none" href="#">
+            <i class="fa-brands fa-instagram fa-2x "></i></a>
+        </div>
+        <div class="mb-2">
+          <a class="text-white text-decoration-none" href="#">
+            <i class="fa-brands fa-twitter-square fa-2x "></i></a>
+        </div>
+        <div class="mb-2">
+          <a class="text-white text-decoration-none" href="#">
+            <i class="fa-brands fa-youtube fa-2x "></i></a>
+        </div>
+        <div class="mb-2">
+          <a class="text-white text-decoration-none" href="#">
+            <i class="fa-brands fa-pinterest fa-2x "></i></a>
+        </div>
+      </div>
+  
+      <div class="col-sm-12 pt-3">
+        <p class="small text-center">Copyright &COPY; 2022 Rolling-Tours / G4 . Todos los derechos reservados.
+        </p>
+      </div>
+  
+    </div>
+  
+  
+  </div>
+  <div class="container-fluid">
+    <div class="row bg-danger text-white mt-1">
+      <div class=" col-md-3 col-lg-3 text-center mt-3">
+        <p class="text-white text-right"><i class="fa-solid fa-globe fa-2x fa-xl"></i> <b> 10 años </b> de
+          experiencia </p>
+      </div>
+      <div class=" col-md-3 col-lg-3 text-center mt-3">
+        <p class=" text-white"> <i class="fa-regular fa-face-smile fa-2x fa-xl"></i> + de <b>50 millones </b> de
+          clientes</p>
+      </div>
+      <div class=" col-md-3 col-lg-3 text-center mt-3">
+        <p> <i class="fa-solid fa-building fa-2x fa-xl"></i> <b>30 millones </b> de hoteles</p>
+      </div>
+      <div class=" col-md-3 col-lg-3 text-center mt-3">
+        <p> <i class="fa-solid fa-plane fa-2x fa-xl"></i> <b> 850 </b> Aerolíneas</p>
+      </div>
+  
+    </div>
+  
+  </div>
+
+
+</footer>
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+</body>
+</html>
