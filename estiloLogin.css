@@ -1,3 +1,15 @@
+body {
+    background-image: url(./Imagenes/fondo.jpg);
+    background-size: cover;
+}
+
+.bg {
+    background-image: url(Imagenes/Volando-hacia-el-atardecer.jpg);
+    background-position: center center;
+    
+    
+}
+
 /* comienza style de whatsapp*/
 .div__wsp__boton {
     position: fixed;
@@ -25,3 +37,4 @@
 }
 
 /*Termina style de whatsapp*/
+
