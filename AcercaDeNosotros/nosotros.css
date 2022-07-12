@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: #051d40;
 }
 img{
     border-radius: 50%;
@@ -44,6 +44,34 @@ p{
     z-index: -1;
     animation: steam 50s linear infinite;
   }
+
+    /* comienza style de whatsapp*/
+    .div__wsp__boton {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      border-radius: 100% !important;
+      background-color: #25D366;
+      box-shadow: 1px 1px 15px black;
+    }
+  
+    .div__wsp__boton:hover {
+      background-color: white;
+    }
+  
+    .icon__wsp {
+      font-size: 40px;
+      margin: 9px;
+      color: white;
+      z-index: 1;
+  
+    }
+  
+    .icon__wsp:hover {
+      color: #25D366;
+    }
+  
+    /*Termina style de whatsapp*/
   
   @keyframes steam {
     0% {
