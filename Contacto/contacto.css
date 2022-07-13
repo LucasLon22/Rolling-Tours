@@ -49,6 +49,175 @@
 
 /*Termina style de whatsapp*/
 
+.bg-prenavbar {
+    background-image: url(../Imagenes/imagen_fondo_nav.png);
+}
+
+.logo_rolling_tours {
+    margin-left: 30px;
+}
+
+.bg-fondo-navsecundario {
+    background-color: #E1E5F2;
+}
+
+
+.navbar {
+    padding: 0;
+}
+
+.navbar_redes {
+    border-left: 3px solid #fff;
+    padding: 10px;
+
+}
+
+.navbar_secundario_opciones {
+    font-size: 20px;
+    margin-bottom: 5px;
+
+}
+
+.navbar_secundario_opciones:hover {
+    background-color: #051d40 !important;
+    transition: 0.7s;
+}
+.color_letra{
+    color: black;
+}
+.color_letra:hover {
+    color: #fff !important;
+}
+
+.back-boton-login {
+    background-color: #CC0000;
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.back-boton-login:hover {
+    background-color: #fff;
+    transition: 0.7s;
+    color: #CC0000;
+}
+
+.nav-boton-suscripcion {
+    background-color: #051d40;
+    color: #fff;
+    font-size: 19px;
+}
+
+.nav-boton-suscripcion:hover {
+    background-color: #fff;
+    color: #051d40 !important;
+    font-size: 19px;
+    transition: 0.7s;
+}
+
+
+.sticky-top {
+    background: #E1E5F2, 0.9;
+    opacity: 1;
+}
+
+
+.back_modal {
+    background-color: #F4EDE8;
+
+}
+
+.back_modal_botones {
+    background-color: #FADBB9
+}
+
+.back_modal_titulo {
+    background-image: url(./Imagenes/imagen_fondo_nav_576px.png);
+}
+
+.imagen-fondo {
+    background-image: url(./Imagenes/playa-fondo-modal.jpg);
+    opacity: 0.9;
+
+}
+
+.formato-texto-modal {
+    color: coral;
+    font-weight: bold;
+}
+
+/* comienza style de whatsapp*/
+.div__wsp__boton {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 100% !important;
+    background-color: #25D366;
+    box-shadow: 1px 1px 15px black;
+}
+
+.div__wsp__boton:hover {
+    background-color: white;
+}
+
+.icon__wsp {
+    font-size: 40px;
+    margin: 9px;
+    color: white;
+    z-index: 1;
+
+}
+
+.icon__wsp:hover {
+    color: #25D366;
+}
+
+/*Termina style de whatsapp*/
+
+@media (min-width:992px) {
+    .nav__a__menu {
+        display: none;
+    }
+
+    .titulo_principal {
+        display: none;
+    }
+
+}
+
+@media (max-width:992px) {
+    .navbar_secundario_opciones {
+        width: 30% !important;
+    }
+}
+
+
+
+@media (max-width:768px) {
+    .nav_contactos {
+        display: none;
+    }
+
+    .navbar_secundario_opciones {
+        width: 50% !important;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .titulo_principal {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+
+    }
+
+    .bg-prenavbar {
+        background-image: url(./Imagenes/imagen_fondo_nav_576px.png);
+    }
+}
+
 @media (max-width:600px) {
     .figure-img {
         width: 250px;

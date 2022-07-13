@@ -15,6 +15,77 @@
 </head>
 
 <body class="fondo_nav_contactanos"> 
+  <!--Aqui comienza el nav-->
+  <nav class="navbar ">
+    <div class="container-fluid bg-prenavbar titulo_principal">
+      <a class="navbar-brand m-0 p-0" href="../index.html">
+        <img src="../Imagenes/logo-rollingtours.png"  alt="logo-empresa" width="100" height="75"
+          class="d-inline-block align-text-top p-1 opacity-75 logo_rolling_tours">
+      </a>
+      <div class="text-light nav_contactos navbar_redes">
+        <span class="me-4 fs-4">
+          <i class="fa-brands fa-whatsapp"></i>
+          3764-444444
+        </span>
+        <span class="me-4 fs-4">
+          <i class="fa-brands fa-instagram"></i>
+          rollingtours
+        </span>
+        <span class="me-4 fs-4">
+          <i class="fa-brands fa-facebook"></i>
+          rollingtoursviajes
+        </span>
+      </div>
+    </div>
+  
+  </nav>
+  <!--Aqui comienza el nav -->
+  <nav class="navbar navbar-expand-lg bg-fondo-navsecundario sticky-top ">
+    <div class="container-fluid">
+  
+      <a class="navbar-brand nav__a__menu" href="#">Menú</a>
+  
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <!--Aqui comienza el nav secundario-->
+      <div class="collapse navbar-collapse margin-auto" id="navbarSupportedContent">
+  
+        <ul class="navbar-nav me-auto mb-3 mb-lg-0 mt-2">
+          <li class="nav-item navbar_secundario_opciones w-auto">
+            <a class="nav-link active color_letra me-1" aria-current="page"
+              href="../AcercaDeNosotros/AcercaDeNosotros.html">Acerca de
+              Nosotros</a>
+          </li>
+          <li class="nav-item navbar_secundario_opciones">
+            <a class="nav-link active color_letra me-1" aria-current="page" href="../Contacto/contacto.html">Contacto</a>
+          </li>
+          <!--Aqui comienza el MODAL-->
+          <li class="ms-0 ms-lg-3 me-4">
+            <button type="button" class="btn nav-boton-suscripcion  " data-bs-toggle="modal"
+              data-bs-target="#exampleModal" data-bs-whatever="@mdo">Suscribirse</button>
+          </li>
+  
+        </ul>
+  
+        <ul class="mb-3 mb-lg-0 mt-2 me-0 p-0 ">
+          <a href="../login.html" class="text-decoration-none">
+            <button type="button" class="btn back-boton-login mb-2 "
+              style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+              Login <i class="fa-solid fa-arrow-right-to-bracket fs-4 ms-2 me-3"></i>
+            </button>
+          </a>
+  
+        </ul>
+  
+  
+      </div>
+    </div>
+  
+  </nav>
+  <!--Aqui termina el nav-->
 
   <nav class="navbar navbar-light bg-black">
     <div class="container text-center">
@@ -115,9 +186,52 @@
 
     </div>
   </section>
+  <!--Aqui comienza el codigo para el modal no mover de esta posición-->
+  <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header back_modal_titulo">
+          <h5 class="modal-title text-light" id="exampleModalLabel">Suscribite y recibí por correo las mejores ofertas
+            para el viaje de tu vida!!</h5>
+          <button type="button" class="btn-close bg-light" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body imagen-fondo">
+          <form>
+  
+            <div class="mb-3 formato-texto-modal">
+  
+              <input type="text" class="form-control back_modal" id="suscripcion_input_nombre" placeholder="Nombre"
+                required>
+            </div>
+  
+            <div class="mb-3 formato-texto-modal ">
+  
+              <input type="number" class="form-control back_modal" id="suscripcion_input_celular" placeholder="Celular"
+                required>
+            </div>
+  
+            <div class="mb-3 formato-texto-modal">
+  
+              <input type="email" class="form-control back_modal" id="suscripcion_input_email"
+                placeholder="Correo Electrónico" required>
+            </div>
+  
+          </form>
+        </div>
+        <div class="modal-footer back_modal_botones">
+          <button type="button" class="btn back-boton-login " data-bs-dismiss="modal">Cancelar</button>
+  
+          <button type="submit" class="btn nav-boton-suscripcion">Recibir Notificaciones</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Aqui terminal el modal-->
   
   <!--Aqui comienza el footer-->
+
   <div class="container-fluid">
+    
   <div class="fondoFooter row p-4 pb-2 text-white">
 
     <div class="col-sm-12 col-md-6 col-lg-3 text-center">
@@ -170,31 +284,35 @@
     </div>
     <div class="col-sm-12 col-md-6 col-lg-3 text-center">
       <p class="h5 mb-3">Síguenos en</p>
-      <div class="mb-2">
-        <a class="text-white text-decoration-none" href="#"><i class="fa-brands fa-facebook fa-2x fa-xl"></i></a>
+      
+      <div class="row row-cols-md-1 row-cols-sm-5">
+      
+        <div class="col mb-2">
+          <a class="text-white text-decoration-none" href="#"><i class="fa-brands fa-facebook fa-2x fa-xl"></i></a>
+        </div>
+        <div class="col mb-2">
+          <a class="text-white text-decoration-none" href="#"><i class="fa-brands fa-instagram fa-2x fa-xl"></i></a>
+        </div>
+        <div class="col mb-2">
+          <a class="text-white text-decoration-none" href="#"><i class="fa-brands fa-twitter-square fa-2x fa-xl"></i></a>
+        </div>
+        <div class="col mb-2">
+          <a class="text-white text-decoration-none" href="#"><i class="fa-brands fa-youtube fa-2x fa-lg"></i></a>
+        </div>
+        <div class="col mb-2">
+          <a class="text-white text-decoration-none" href="#"><i class="fa-brands fa-pinterest fa-2x fa-xl"></i></a>
+        </div>
+      
       </div>
-      <div class="mb-2">
-        <a class="text-white text-decoration-none" href="#"><i class="fa-brands fa-instagram fa-2x fa-xl"></i></a>
-      </div>
-      <div class="mb-2">
-        <a class="text-white text-decoration-none" href="#"><i class="fa-brands fa-twitter-square fa-2x fa-xl"></i></a>
-      </div>
-      <div class="mb-2">
-        <a class="text-white text-decoration-none" href="#"><i class="fa-brands fa-youtube fa-2x fa-lg"></i></a>
-      </div>
-      <div class="mb-2">
-        <a class="text-white text-decoration-none" href="#"><i class="fa-brands fa-pinterest fa-2x fa-xl"></i></a>
-      </div>
-    </div>
 
     <div class="col-sm-12 pt-3">
       <p class="small text-center">Copyright &COPY; 2022 Rolling-Tours / G4 . Todos los derechos reservados.</p>
     </div>
 
   </div>
-
-
 </div>
+</div>
+
 <div class="container-fluid">
   <div class="row bg-danger text-white mt-1">
     <div class=" col-md-3 col-lg-3 text-center mt-3">
