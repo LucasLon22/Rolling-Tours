@@ -21,34 +21,6 @@
     display: flex;
 }
 
-/* comienza style de whatsapp*/
-.div__wsp__boton {
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    border-radius: 100% !important;
-    background-color: #25D366;
-    box-shadow: 1px 1px 15px black;
-}
-
-.div__wsp__boton:hover {
-    background-color: white;
-}
-
-.icon__wsp {
-    font-size: 40px;
-    margin: 9px;
-    color: white;
-    z-index: 1;
-
-}
-
-.icon__wsp:hover {
-    color: #25D366;
-}
-
-/*Termina style de whatsapp*/
-
 .bg-prenavbar {
     background-image: url(../Imagenes/imagen_fondo_nav.png);
 }
@@ -82,12 +54,7 @@
     background-color: #051d40 !important;
     transition: 0.7s;
 }
-.color_letra{
-    color: black;
-}
-.color_letra:hover {
-    color: #fff !important;
-}
+
 
 .back-boton-login {
     background-color: #CC0000;
@@ -146,38 +113,23 @@
     color: coral;
     font-weight: bold;
 }
-
-/* comienza style de whatsapp*/
-.div__wsp__boton {
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    border-radius: 100% !important;
-    background-color: #25D366;
-    box-shadow: 1px 1px 15px black;
+.navbar-toggler {
+    border:1px solid gray !important;
+}
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
-.div__wsp__boton:hover {
-    background-color: white;
+.text-dark:hover{
+    color: white !important;
 }
 
-.icon__wsp {
-    font-size: 40px;
-    margin: 9px;
-    color: white;
-    z-index: 1;
 
-}
-
-.icon__wsp:hover {
-    color: #25D366;
-}
-
-/*Termina style de whatsapp*/
 
 @media (min-width:992px) {
     .nav__a__menu {
         display: none;
+        
     }
 
     .titulo_principal {
@@ -214,7 +166,7 @@
     }
 
     .bg-prenavbar {
-        background-image: url(./Imagenes/imagen_fondo_nav_576px.png);
+        background-image: url(../Imagenes/imagen_fondo_nav_576px.png);
     }
 }
 
@@ -232,3 +184,33 @@
         height: 300px;
     }
 }
+
+/* comienza style de whatsapp*/
+.div__wsp__boton {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 100% !important;
+    background-color: #25D366;
+    box-shadow: 1px 1px 15px black;
+}
+
+.div__wsp__boton:hover {
+    background-color: white;
+}
+
+.icon__wsp {
+    font-size: 40px;
+    margin: 9px;
+    color: white;
+    z-index: 1;
+
+}
+
+.icon__wsp:hover {
+    color: #25D366;
+}
+
+
+
+/*Termina style de whatsapp*/
